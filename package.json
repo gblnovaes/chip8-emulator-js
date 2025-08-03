@@ -1,0 +1,29 @@
+{
+  "name": "chip8-emulator",
+  "version": "0.0.1",
+  "description": "Este projeto é um emulador do **Chip-8**, um sistema de máquina virtual desenvolvido na década de 1970 para computadores de 8 bits. O emulador é implementado em **JavaScript** e permite executar jogos e programas escritos para o Chip-8 em navegadores modernos. O objetivo é fornecer uma experiência fiel ao hardware original, com suporte para entrada de teclado, gráficos monocromáticos e som básico.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gblnovaes/chip8-emulator-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gblnovaes/chip8-emulator-js/issues"
+  },
+  "homepage": "https://github.com/gblnovaes/chip8-emulator-js#readme",
+  "dependencies": {
+    "webpack-cli": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.101.0"
+  }
+}
