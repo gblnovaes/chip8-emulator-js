@@ -38,11 +38,11 @@ Este projeto é um emulador do **Chip-8**, um sistema de máquina virtual desenv
 
 ## Estrutura do Projeto
 
-- `index.html`: Página principal que carrega o emulador.
-- `js/chip8.js`: Lógica central do emulador (CPU, memória, registros, etc.).
-- `js/display.js`: Gerenciamento da renderização no Canvas.
-- `js/input.js`: Mapeamento e manipulação de entrada do teclado.
-- `js/audio.js`: Controle do som usando Web Audio API.
+- `public/index.html`: Página principal que carrega o emulador.
+- `src/js/Chip8.js`: Lógica central do emulador (CPU, memória, registros, etc.).
+- `src/js/Display.js`: Gerenciamento da renderização no Canvas.
+- `src/js/Input.js`: Mapeamento e manipulação de entrada do teclado.
+- `src/js/Audio.js`: Controle do som usando Web Audio API.
 - `roms/`: Diretório para armazenar ROMs de teste (não incluídas no repositório).
 
 ## Requisitos
