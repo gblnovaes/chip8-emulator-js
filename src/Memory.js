@@ -15,10 +15,15 @@ export class Memory {
 
   getMemory(index) {
     this.asertMemory(index);
+
     return this.memory[index];
   }
 
   asertMemory(index) {
-    console.log((index >= 0) & (index < MEMORY_SIZE));
+    console.assert(index >= 0 && index <= MEMORY_SIZE, "Invalid memory index");
+  }
+
+  printMemory() {
+    console.log(this.memory);
   }
 }

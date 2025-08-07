@@ -35,6 +35,7 @@ export class Display {
     for (let h = 0; h < DISPLAY_HEIGHT; h++) {
       this.frameBuffer.push([]);
       for (let w = 0; w < DISPLAY_WIDTH; w++) {
+        // console.log(w, h, this.frameBuffer[h][w]);
         this.drawPixel(h, w, this.frameBuffer[h][w]);
       }
     }
@@ -47,8 +48,8 @@ export class Display {
       this.context.fillStyle = DISPLAY_BACKGROUND_COLOR_BLACK;
     }
     this.context.fillRect(
-      w * DISPLAY_MULTIPLIER,
-      h * DISPLAY_MULTIPLIER,
+      w * DISPLAY_MULTIPLIER, // linha
+      h * DISPLAY_MULTIPLIER, // coluna
       DISPLAY_MULTIPLIER,
       DISPLAY_MULTIPLIER
     );
